@@ -4,7 +4,7 @@
 
 }
 html, body {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     font-size: 15px;
     font-weight: normal;
@@ -12,8 +12,8 @@ html, body {
     
 }
 .backgroundImage{
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 150%;
     background-color: lightgray;;
     background-repeat: no-repeat;
     background-size: cover;
