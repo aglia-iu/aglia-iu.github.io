@@ -17,6 +17,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: auto;
     position: relative;
+    overflow-x: hidden;
 }
 .nav a{
     padding-top: 40px;
