@@ -12,8 +12,8 @@ html, body {
     
 }
 .backgroundImage{
-    width: 150%;
-    height: 150%;
+    width: auto;
+    height: auto;
     background-color: lightgray;;
     background-repeat: no-repeat;
     background-size: cover;
