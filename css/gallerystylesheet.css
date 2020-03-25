@@ -14,7 +14,7 @@ html, body {
 .backgroundImage{
     width: 100%;
     height: 100%;
-    background-color: lightgray;;
+    background-color: lightgray;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
