@@ -62,10 +62,6 @@ a.active, .nav a:hover{
 .button3{
     height:50px;
 }
-img center {
-    margin: auto;
-    width: 120em;
-}
 div.imagedisplay{
     padding-left: 40px;
     padding-right: 30px;
@@ -80,7 +76,7 @@ div.imagedisplay img{
 }
 .center {
     margin: auto;
-    width: 120em;
+    width: 130em;
 }
 .contactlinks{
     margin: auto;
