@@ -8,7 +8,7 @@ html, body {
     height: 150%;
     font-size: 15px;
     font-weight: normal;
-    overflow-x: scroll
+    overflow-x: scroll;
     
 }
 .backgroundImage{
@@ -34,10 +34,8 @@ html, body {
     background-color: lightcyan; 
     color: black;
     text-align: left;
-    overflow-x: hidden;
 }
 ul{
-    overflow: hidden;
     background-color: lightcyan;
 }
 li{
