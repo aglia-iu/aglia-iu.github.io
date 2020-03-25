@@ -9,8 +9,6 @@ html, body {
     height: 150%;
     font-size: 15px;
     font-weight: normal;
-    overflow-x: scroll;
-    overflow-y: scroll;
 }
 .backgroundImage{
     width: 100%;
