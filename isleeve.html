@@ -101,9 +101,9 @@
     <div class="p-5 mb-5 bg-light rounded-3">
         <hr class="featurette-divider">
         <div class="row featurette">
-            <div class="col-md-7">
-              <div class="col-md-5 align-content-center">
-                <img src="images/isleeve/download.gif" class="rounded" alt="iSleeve Poster" height="400px" width="700px">
+            <div class="col-md-5">
+              <div class="row justify-content-between">
+                <div style="width:100%;height:0;padding-bottom:57%;position:relative;"><iframe src="https://giphy.com/embed/OFlNVF272FlWkKHBke" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/OFlNVF272FlWkKHBke"></a></p>
               </div>
               <br>
                 <h2 class="featurette-heading fw-normal lh-1">iSleeve Project</h2>
@@ -123,17 +123,20 @@
                 
                 <p class="lead">Our circuit uses an Arduino Nano RP2040 Connect as its microprocessor, a BNO055 IMU to capture movement of the forearm, the LSMD6SOX IMU (onboard the Arduino Nano RP2040 Connect) to capture movement of the upper arm, and the MyoWare EMG Sensor to capture grip information. The IMUs and EMG Sensor use I2C Communication to send signals to the microprocessor. The microprocessor is powered by the battery pack on the shoulder.To process the data we used the Arduino Genuino IDE and Blender Python.</p> 
                   <p class="lead"> Arduino Genuino IDE collects the preprocessed Accelerometer, Gyroscope and Magnetometer/ Temperature data and runs it through the Madgwick Algorithm to collect roll, pitch, and yaw. Arduino then sends this data via Wi-Fi to Blender, which collects each coordinate, and uses it to change the position of the bone attached to the mesh. Over time and collection of data, the arm movements reflect the live motion of the arm of the use</p>
-                  <div class="col-md-5">
-                    <div class="ratio ratio-4x3 align-content-center" style="--bs-aspect-ratio: 100%;">
-                      <iframe src="images/isleeve/isleeve_vid.mp4" title="iSleeve Video" width="100%" allowfullscreen></iframe>
-                    </div>
-                    <!-- <img src="images/placeholder.svg" class="rounded" alt="iSleeve Poster" height="400px" width="800px"> -->
-                  </div>
                 <p class="lead">I was responsible for the fabric selection and 3D Modeling. A fun fact is that for this project I had to learn sewing and garment design skills! Although we started by making a prototype with Neoprene, we realized Neoprene did not have the stretch we looking for with our compressive sleeve. We experimented with a couple of sleeves from Dicks Sporting Goods but realized we couldn’t cut through them because it would ruin the knit fabric. So we purchased Micro flex Spandex from Joanne’s Fabrics and made our final glove using that, which further allowed us to cut without fraying the fabric and cooled the skin. </p>
             </div>
             <div class="col-md-5" >
               <img src="images/isleeve/isleeve.png" class="rounded" alt="iSleeve Poster" height="1000px" width="675px"> 
               <img src="images/isleeve/isleeve_design.jpg" class="rounded" alt="iSleeve Poster" height="1000px" width="675px">
+              <div class="row justify-content-center">
+                <div class="col-md-6" style="--bs-aspect-ratio: 100%;">
+                  <div style="position: relative; width: 100%; height: 0; padding-top: 177.7778%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16)x; margin-bottom: 0.9em; overflow: hidden;border-radius: 8px; will-change: transform;">
+                    <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                      src="https://www.canva.com/design/DAGfNkDV3B0/8sS-e-xXX1P0zKH_rRjvbA/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                    </iframe>
+                  </div>
+                </div>
+              </div>
               <!-- <video src="images/isleeve/isleeve_vid.mp4" type="video/mp4"  height="1000px" width="675px" autoplay></video> -->
             </div>
         </div>
