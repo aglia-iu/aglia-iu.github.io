@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, Bootstrap contributors, and Anjali Gali">
     <meta name="generator" content="Hugo 0.104.2">
@@ -73,7 +74,9 @@
     <header>
       <nav class="navbar navbar-expand-md fixed-top" style="background-color: #C48BC5;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">ANJALI</a>
+          <a class="navbar-brand" href="index.html">
+            <img src="images/faviconBanner.png" alt="Anjali's Signature" width="120px" height="64px">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -82,14 +85,6 @@
               <li class="nav-item">
                 <a class="nav-link active" href="index.html">About</a>
               </li>
-              <!-- <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="compsci.html">Computer Science</a></li>
-                  <li><a class="dropdown-item" href="art.html">Art</a></li>
-                </ul>            
-              </li> -->
-              
             </ul>
             </div>
           </div>
@@ -101,36 +96,50 @@
     <div class="p-5 mb-5 bg-light rounded-3">
         <hr class="featurette-divider">
         <div class="row featurette">
-            <div class="col-md-7">
-              <div class="col-md-5 align-content-center">
-                <img src="images/placeholder.svg" class="rounded" alt="iSleeve Poster" height="400px" width="800px">
+            <div class="col">
+              <div class="row justify-content-center">
+                <div style="position: relative; width: 25%; height: 0; padding-top: 50%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+                  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGf5lB156U/72gG9ZXtxEq1eJqdcX5v3w/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                  </iframe>
+                </div>
               </div>
               <br>
-                <h2 class="featurette-heading fw-normal lh-1">Creatureful</h2>
-                <p class="lead">This project was made by Anjali Gali, as a final project for EDUC 510: Game-Based Learning.</p>
-                <p class="lead">Wouldn't it be great if students who are neurodivergent could socialize with their peers while simultaneously learning to code?</p>
+                <h2 class="featurette-heading fw-normal lh-1">RiseherFund</h2>
+                <p class="lead">This project was made as part of a team of five for a class project.</p>
+                <p class="lead">I had the opportunity to work in collaboration with two team members of Iowa State University (Heliya A. and Esther K.) and the Namibia University of Science and Technology (Paulina S and Elikkan R.). This project was inspired by the unique experiences and challenges that one of our team members experienced as a female African entrepreneur</p>
+                <div class="row justify-content-center">
+                  <div class="col-md-4">
+                    <img src="images/riseherfund/Screenshot 2025-02-22 225522.png" class="rounded" alt="RiseHerFund breakdown" height="auto" width="100%">
+                  </div>
+                </div>
                 <p class="lead">
-                This is the problem I wanted to solve, by leveraging a video game format to create an environment for students to create a virtual environment with virtual pets/companions that you can code custom skills into, by leveraging a video game to create a virtual pet/companion that you could code custom skills into. Students can challenge their classmates and their companions to obstacle courses of their own design, or designed by a teacher.</p>
-              <!-- </div> -->
-              <!-- <div class="col-md-7"> -->
-                <!-- <div class="col-md-5">
-                  <img src="images/placeholder.svg" class="rounded" alt="iSleeve Poster" height="400px" width="800px">
-                </div> -->
-                <p class="lead"> .</p>
-                <div class="col-md-5">
-                  <img src="images/placeholder.svg" class="rounded" alt="iSleeve Poster" height="400px" width="800px">
+                  Black women business owners who apply for funding face a 3x higher rejection rate than that of white business owners.
+                  If their entrepreneurs were mentored, 70% of small businesses survive longer than five years (double the rate of those who were not mentored), but many female African/African American entrepreneurs struggle to find mentors.</p>
+                  <p class="lead">As a team, we wanted to use the value-design methods to approach this problem and design a solution.</p>
+                <p class="lead">TThe primary research question we aimed to answer was: <b>How can we enhance the success and sustainability of female African/African American entrepreneurs through targeted support and resources?</b> We also wanted to answer the question of: How can we ensure that the female African/African American entrepreneurs are not worried about having limited access to resources due to the gender equality in their area? </p> 
+                  <p class="lead"> During the course of this class, we learned how to employ <a href = "https://www.luma-institute.com/about-luma/luma-system-explore-methods/">LUMA human-centered design methods</a>. We specifically chose to use four methodologies: </p>
+                <div class="row justify-content-center">
+                  <img src="images/riseherfund/recipe.png" class="rounded" alt="iSleeve Poster" height="auto" width="100%">
                 </div>
-                <p class="lead">To develop this environment, I made use of two assets from the Unity Asset Store, for the Island Design and the Skybox design. I also incorporated the Lua Programming Language into my environment using the Moonsharp plugin. Through the Moonsharp plugin, a user is able to create simple methods that can be called within Unity, and can be used to control the environment and move objects in the environment that may help a user create simple structures when completing the minigame. </p> 
-                  <p class="lead"> Throughout this class, we focused closely on the usage of game mechanics in popular games and gaming platforms that are used in educational, as well as recreational contexts. When beginning this project, I decided to use mechanics similar to Minecraft to promote exploration and tool-building mechanisms, making it applicable to a variety of contexts. Additionally, as I prototyped this environment, I built several wireframes to illustrate functionality that I wanted to build, such as a Sandbox mode for students to experiment in. </p>
-                <div class="col-md-5">
-                  <img src="images/placeholder.svg" class="rounded" alt="iSleeve Poster" height="400px" width="800px">
+                <p class="lead"> Fly on the Wall Situational Mapping helped us position ourselves in various settings where the entrepreneurs typically operate. We engaged in conversations with female African/African American entrepreneurs to have a better understanding of their motivations, challenges , and the values they hold central to their businesses. Our participants identified these values: Agency, Gender Equality & Justice, Knowledge & Education, Collaboration & Creativity, Happiness, and Health & Well-being. Lastly, we ensured that the situation maps accurately reflect both micro/macro perspectives  </p>
+                <div class="row justify-content-center">
+                  <img src="images/riseherfund/Background.png" class="rounded" alt="iSleeve Poster" height="auto" width="100%">
+                </div>
+                <p class="lead"> We also used Values Based Affinity Clustering to help us determine some of the similarities and differences between participant's experiences in both the US and Africa. This methodology, per the LUMA Institute, helps researchers "converge on sharp purpose to achieve common ground, place similar thoughts in proximity, discuss and rearrange thoughts as groupings emerge, foster strong ties within the group to view similarities and patterns. We also used Values and End-State Mapping to help us understand what the end goals for many of our participants look like to provide context behind certain actions they take to achieve that particular goal. We adjusted these method based on the needs of our users to ensure they could complete this activity asynchronously. This was after communicating and fully understanding the needs of our stakeholders.</p>
+                <div class="row justify-content-center">
+                  <div class="col">
+                    <img src="images/riseherfund/Happiness.png" class="rounded" alt="iSleeve Poster" height="auto" width="100%">
+                  </div>
+                  <div class="col">
+                    <img src="images/riseherfund/Values Based Affinity Clustering Map 1.png" class="rounded" alt="iSleeve Poster" height="auto" width="100%">
+                  </div>
+                </div>
+                <p class="lead">The Values and End-State Mapping methodology directly informed the creation of our wireframe, and my role as a part of the team was to create the wireframe.</p>
+                <div class="row justify-content-center">
+                  <img src="images/riseherfund/FIGMA.png" class="rounded" alt="iSleeve Poster" height="auto" width="100%">
                 </div>
             </div>
-            <div class="col-md-5" >
-              <img src="images/placeholder.svg" class="rounded" alt="iSleeve Poster" height="1000px" width="675px">
-              <img src="images/placeholder.svg" class="rounded" alt="iSleeve Poster" height="1000px" width="675px">
-              
-            </div>
+           
         </div>
     </div>
 </main>
